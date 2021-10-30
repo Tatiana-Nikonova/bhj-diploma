@@ -81,7 +81,7 @@ class User {
 					this.setCurrent(response.user);
 				}
 				callback(err, response);
-			};
+			}
 		});
 	};
 
